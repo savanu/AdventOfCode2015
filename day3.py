@@ -1,5 +1,5 @@
 def part1():
-    with open('input3.txt', 'r') as input:
+    with open('inputs/input3.txt', 'r') as input:
         steps = input.readline()
 
     visited = {}
@@ -18,7 +18,7 @@ def part1():
     print(len(visited))
 
 def part2():
-    with open('input3.txt', 'r') as input:
+    with open('inputs/input3.txt', 'r') as input:
         steps = input.readline()
     
     visited = {}

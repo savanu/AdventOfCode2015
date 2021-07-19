@@ -1,6 +1,6 @@
 
 def part1():
-    with open('input1.txt', 'r') as input:
+    with open('inputs/input1.txt', 'r') as input:
         steps = input.readline()
 
     floor = 0
@@ -14,7 +14,7 @@ def part1():
     print(floor)
 
 def part2():
-    with open('input1.txt', 'r') as input:
+    with open('inputs/input1.txt', 'r') as input:
         steps = input.readline()
     
     floor = 0

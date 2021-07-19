@@ -3,7 +3,7 @@ import re
 parser = re.compile('(turn on|turn off|toggle) ([0-9]+),([0-9]+) through ([0-9]+),([0-9]+)')
 
 def parts():
-    with open('input6.txt', 'r') as input:
+    with open('inputs/input6.txt', 'r') as input:
 
         grid1 = {}
         grid2 = {}

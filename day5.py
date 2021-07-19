@@ -7,7 +7,7 @@ twoLettersTwice = re.compile('([a-z][a-z])[a-z]*\\1')
 letterRepeatBetween = re.compile('([a-z])[a-z]{1}\\1')
 
 def part1():
-    with open('input5.txt', 'r') as input:
+    with open('inputs/input5.txt', 'r') as input:
         words = input.readlines()
     
     nicewords = [word for word in words if nice1(word)]
@@ -28,7 +28,7 @@ def nice2(word):
     return rule1 and rule2
 
 def part2():
-    with open('input5.txt', 'r') as input:
+    with open('inputs/input5.txt', 'r') as input:
         words = input.readlines()
     
     niceWords = [word for word in words if nice2(word)]

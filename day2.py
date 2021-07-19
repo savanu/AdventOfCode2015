@@ -1,6 +1,6 @@
 
 def part1():
-    with open('input2.txt', 'r') as input:
+    with open('inputs/input2.txt', 'r') as input:
         lines = input.readlines()
 
     total = 0
@@ -16,7 +16,7 @@ def part1():
     print(total)
 
 def part2():
-    with open('input2.txt', 'r') as input:
+    with open('inputs/input2.txt', 'r') as input:
         lines = input.readlines()
 
     total = 0
