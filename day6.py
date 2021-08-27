@@ -9,10 +9,10 @@ def parts():
         grid2 = {}
 
         for line in input:
-            parts = parser.match(line)
-            instr = parts.group(1)
-            start = (int(parts.group(2)), int(parts.group(3)))
-            end = (int(parts.group(4)), int(parts.group(5)))
+            parts = parser.match(line).groups()
+            instr = parts[0]
+            start = (int(parts[1]), int(parts[2]))
+            end = (int(parts[3]), int(parts[4]))
 
             for x in range(start[0], end[0] + 1):
                 for y in range(start[1], end[1] + 1):
